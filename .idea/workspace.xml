@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="695d7101-da9b-470e-a9f4-a3e2e422766a" name="Changes" comment="доработанный проект для клиента с eureka с добавленным restful сервисом">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +20,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/api-gateway">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/eureka-client">
       <ProjectState />
     </projectState>
@@ -25,7 +32,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-micro-demo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -42,6 +54,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vbelenchenkov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vbelenchenkov/spring-micro-demo.git&quot;,
+    &quot;accountId&quot;: &quot;ec7ea1ab-652c-499b-9a86-0bb2ea0b1aa5&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -60,6 +84,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build api-gateway.executor": "Run",
     "Gradle.Build eureka-client.executor": "Run",
     "Gradle.Build spring-micro-demo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -70,9 +95,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.EurekaClientApplication.executor": "Run",
     "Spring Boot.EuricaServerApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -82,6 +108,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3229885",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
@@ -89,6 +116,9 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
@@ -97,6 +127,7 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
+              <entry key="ApiGatewayApplication" value="FAILED" />
               <entry key="EurekaClientApplication" value="STOPPED" />
               <entry key="EuricaServerApplication" value="STOPPED" />
             </map>
@@ -106,6 +137,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EuricaServerApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.eurekaclient.EurekaClientApplication" />
@@ -139,7 +177,13 @@
       <workItem from="1781334458546" duration="1535000" />
       <workItem from="1781336017120" duration="2518000" />
       <workItem from="1781338562028" duration="296000" />
-      <workItem from="1781338871604" duration="5708000" />
+      <workItem from="1781338871604" duration="6957000" />
+      <workItem from="1781370356474" duration="213000" />
+      <workItem from="1781370597629" duration="75000" />
+      <workItem from="1781370714463" duration="1212000" />
+      <workItem from="1781371946513" duration="502000" />
+      <workItem from="1781372461551" duration="1000000" />
+      <workItem from="1781373564318" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="доработанный проект для клиента с eureka с добавленным restful сервисом">
       <option name="closed" value="true" />
