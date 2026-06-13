@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="695d7101-da9b-470e-a9f4-a3e2e422766a" name="Changes" comment="доработанный проект для клиента с eureka с добавленным restful сервисом">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/ru/javabegin/micro/demo/eurekaclient/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/ru/javabegin/micro/demo/eurekaclient/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,7 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="ApiGatewayApplication" value="FAILED" />
+              <entry key="ApiGatewayApplication" value="STOPPED" />
               <entry key="EurekaClientApplication" value="STOPPED" />
               <entry key="EuricaServerApplication" value="STOPPED" />
             </map>
@@ -183,7 +182,7 @@
       <workItem from="1781370714463" duration="1212000" />
       <workItem from="1781371946513" duration="502000" />
       <workItem from="1781372461551" duration="1000000" />
-      <workItem from="1781373564318" duration="1904000" />
+      <workItem from="1781373564318" duration="3566000" />
     </task>
     <task id="LOCAL-00001" summary="доработанный проект для клиента с eureka с добавленным restful сервисом">
       <option name="closed" value="true" />
